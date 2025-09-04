@@ -23,12 +23,31 @@ It demonstrates how to perform **CRUD (Create, Read, Update, Delete)** operation
 ---
 
 ## 📂 Project Structure
-WebApiCrud/
-│-- Controllers/ # API Controllers
-│-- Models/ # Data models
-│-- Data/ # Database context
-│-- Program.cs # Application entry point
-│-- Startup.cs # Middleware and configuration
+WebApiCrudProject/
+│
+├── Controllers/               # API controllers (handles HTTP requests)
+│   └── StudentAPIController.cs
+│
+├── Models/                    # Data models (represent database entities)
+│   └── Item.cs
+│
+├── Data/                      # Database context and seed data
+│   └── MYDbContext.cs
+│   └── Student.cs
+│
+│
+├── Properties/                # Project properties and launch settings
+│   └── launchSettings.json
+│
+│
+├── appsettings.json           # Application configuration file
+├── appsettings.Development.json
+│
+├── Program.cs                 # Entry point of the application
+│
+└── README.md                  # Project documentation
+
+
 
 | Method | Endpoint          | Description          |
 | ------ | ----------------- | -------------------- |
