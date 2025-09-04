@@ -23,6 +23,7 @@ It demonstrates how to perform **CRUD (Create, Read, Update, Delete)** operation
 ---
 
 ## 📂 Project Structure
+```bash
 WebApiCrudProject/
 │
 ├── Controllers/               # API controllers (handles HTTP requests)
