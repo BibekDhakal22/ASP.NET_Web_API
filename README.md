@@ -26,30 +26,25 @@ It demonstrates how to perform **CRUD (Create, Read, Update, Delete)** operation
 ```bash
 WebApiCrudProject/
 ├── Controllers/
-│   └── ItemsController.cs
+│   └── StudentAPIController.cs
 │
 ├── Models/
-│   └── Item.cs
-│
-├── Data/
-│   └── AppDbContext.cs
-│
-├── Migrations/
+│   └── myDbContext.cs
+│   └── student.cs
 │
 ├── Properties/
 │   └── launchSettings.json
 │
-├── wwwroot/
 │
 ├── appsettings.json
 ├── appsettings.Development.json
 │
 ├── Program.cs
-├── Startup.cs
 │
 └── README.md
+```
 
-
+```bash
 
 | Method | Endpoint          | Description          |
 | ------ | ----------------- | -------------------- |
