@@ -23,28 +23,29 @@ It demonstrates how to perform **CRUD (Create, Read, Update, Delete)** operation
 ---
 
 ## 📂 Project Structure
-```bash
 WebApiCrudProject/
 │
 ├── Controllers/               # API controllers (handles HTTP requests)
-│   └── StudentAPIController.cs
+│   └── ItemsController.cs
 │
 ├── Models/                    # Data models (represent database entities)
 │   └── Item.cs
 │
 ├── Data/                      # Database context and seed data
-│   └── MYDbContext.cs
-│   └── Student.cs
+│   └── AppDbContext.cs
 │
+├── Migrations/                # EF Core migrations (if using Entity Framework)
 │
 ├── Properties/                # Project properties and launch settings
 │   └── launchSettings.json
 │
+├── wwwroot/                   # Static files (if any)
 │
 ├── appsettings.json           # Application configuration file
 ├── appsettings.Development.json
 │
 ├── Program.cs                 # Entry point of the application
+├── Startup.cs                 # Configuration (middleware, services, DB setup)
 │
 └── README.md                  # Project documentation
 
